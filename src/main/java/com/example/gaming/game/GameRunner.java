@@ -1,12 +1,8 @@
 package com.example.gaming.game;
 
 public class GameRunner {
-    //MarioGame game;
-    SuperContractGame game;
-//    public GameRunner(MarioGame game){
-//        this.game = game;
-//    }
-    public GameRunner(SuperContractGame game){
+    GameConsole game;
+    public GameRunner(GameConsole game){
         this.game = game;
     }
 

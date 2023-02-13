@@ -1,6 +1,6 @@
 package com.example.gaming.game;
 
-public class SuperContractGame {
+public class SuperContractGame implements GameConsole{
     public void up(){
         System.out.println("Go up");
     }
